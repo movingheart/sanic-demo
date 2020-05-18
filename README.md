@@ -34,4 +34,16 @@ pip install -r requirement.txt
 python main.py
 ```
 
-然后在浏览器中访问即可。
+然后在浏览器中访问即可。可用的访问路径如下：
+
+```html
+http://0.0.0.0:8000/blue/endpoint
+http://0.0.0.0:8000/blue/app
+http://0.0.0.0:8000/blue/json
+http://0.0.0.0:8000/blue/query_string?key1=value1&key2=value2
+http://0.0.0.0:8000/blue/html
+
+http://0.0.0.0:8000/item/html
+http://0.0.0.0:8000/item/endpoint
+http://0.0.0.0:8000/item/html
+```
