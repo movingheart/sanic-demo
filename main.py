@@ -8,14 +8,20 @@ Date: 2020/5/18 18:18:38
 """
 
 from sanic import Sanic
+
 from blue_demo.blue import bp as blue
 from blue_item.blue import bp as item
 import config
+from middlewares.my_middleware import print_on_request, print_on_response
 
 app = Sanic(__name__)
 
 # 添加配置
 app.config.from_object(config)
+
+# 注册中间件
+app.register_middleware(print_on_request, attach_to='request')
+app.register_middleware(print_on_response, attach_to='response')
 
 # 注册各个模块
 app.blueprint(blue)
