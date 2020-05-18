@@ -1,5 +1,5 @@
 # sanic-demo
-sanic学习笔记及练习代码，基于blueprint实现路由的设置。
+sanic学习笔记及练习代码，基于blueprint实现模块间路由设置隔离。
 
 # 模块说明
 
@@ -33,3 +33,5 @@ main.py -- 引用各个模块，启动服务。
 pip install -r requirement.txt
 python main.py
 ```
+
+然后在浏览器中访问即可。
