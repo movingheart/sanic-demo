@@ -25,3 +25,11 @@ config.py -- 配置文件
 ## 主模块
 
 main.py -- 引用各个模块，启动服务。
+
+
+# 运行方法
+
+```shell script
+pip install -r requirement.txt
+python main.py
+```
