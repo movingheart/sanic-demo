@@ -1,6 +1,8 @@
 # sanic-demo
 sanic学习笔记及练习代码，基于blueprint实现模块间路由设置隔离。
 
+main.py 混合了单个函数的使用
+
 # 模块说明
 
 ## 应用模块
@@ -46,4 +48,6 @@ http://0.0.0.0:8000/blue/html
 http://0.0.0.0:8000/item/html
 http://0.0.0.0:8000/item/endpoint
 http://0.0.0.0:8000/item/html
+
+http://0.0.0.0:8000/demo/hello 
 ```
